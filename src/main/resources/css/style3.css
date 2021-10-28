@@ -1,0 +1,115 @@
+.body{
+    width:100%;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap !important;
+}
+.container > nav > ol > li{
+    font-size: 18px;
+}
+.container > nav > ol > li > a{
+    color: #252A2B;
+}
+.container .left-filter > p{
+    font-size: 14px;
+}
+.container .left-filter .filter-by-selection{
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.container .left-filter .filter-by-selection > i{
+    color: #ccc;
+    padding-left: 3px;
+}
+.container .left-filter .filter-by-selection .row-content{
+    font-weight: lighter;
+    font-size: 12px;
+    position: absolute;
+    z-index: 5;
+}
+.container .left-filter .filter-by-selection .row-content .forms-check{
+    display: none;
+    padding-left: 10px;
+    padding: 15px;
+}
+.container .left-filter .filter-by-selection:hover .forms-check{
+    display: block !important;
+}
+.container .right-sort{
+    font-size: 14px;
+}
+.container .right-sort .dropdown{
+    margin-top: -7px;
+}
+.container .right-sort .dropdown > a{
+    font-size: 14px;
+}
+.container .products{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+.container .products .product{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+.container .products .product .card{
+    border: none;
+}
+.container .products .product .card:hover{
+    border: 1px solid #ccc;
+}
+.container .products .product .card:hover .card-body-2{
+    opacity: 1;
+}
+.container .products .product .card .card-body{
+    text-align: center;
+}
+.container .products .product .card .card-body h6{
+    width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.container .products .product .card .card-body h5{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.container .products .product .card .card-body-2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    opacity: 0;
+}
+.container .products .product .card .card-body-2 > a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+}
+.container .products .product .card .card-body-2 > a > i{
+    padding-top: 1px;
+    font-size: 14px;
+}
+.container .products .product .card .card-body-2 > a > h6{
+    font-size: 13px;
+    padding-left: 5px;
+}
+.container .products .product .card .card-body-2 > h4{
+    color: #fff;
+}
+@media all and (max-width: 768px){
+    .body .container > nav > ol > li{
+        font-size: 10px !important;
+    }
+    .body .container > nav > ol > li > a{
+        color: #252A2B;
+    }
+}
